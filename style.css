@@ -33,20 +33,23 @@ body{
     align-items: center;
     flex-direction: column;
     border-radius:.3rem ;
+    max-width: 58vw;
 }
 .form{
     display: grid;
-    grid-template-columns:  1fr 1fr;
+    grid-template-columns: auto auto;
     row-gap: 1rem;
-    column-gap: 3rem;
+    column-gap: 5vw;
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
+    padding: 2rem;
 }
 .title{
     margin: 0;
     text-align: start;
     align-self: start;
+    width: 50vw;
 }
 label{
     font-weight: bold;
@@ -63,7 +66,7 @@ label{
     color: var(--Vary-dark-shade-of-cyan-blue);
     padding: 1rem;
     height: 1.5rem;
-    width: 350px;
+    width: 50vw;
     word-break: break-all;
     border-radius: .3rem;
     
